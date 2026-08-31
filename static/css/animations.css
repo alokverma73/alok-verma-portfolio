@@ -1,0 +1,153 @@
+/* ================================
+   KEYFRAME ANIMATIONS
+================================ */
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 8px var(--accent);
+    }
+
+    50% {
+        opacity: 0.55;
+        box-shadow: 0 0 22px var(--accent);
+    }
+}
+
+@keyframes lineMove {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    50% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    51% {
+        transform-origin: right;
+    }
+
+    100% {
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+}
+
+
+/* ================================
+   HERO ENTRANCE ANIMATIONS
+================================ */
+
+.hero-status {
+    opacity: 0;
+    animation: fadeUp 0.7s ease forwards;
+}
+
+.hero-intro {
+    opacity: 0;
+    animation: fadeUp 0.8s 0.15s ease forwards;
+}
+
+.hero-title {
+    opacity: 0;
+    animation: fadeUp 1s 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-role {
+    opacity: 0;
+    animation: fadeUp 0.8s 0.45s ease forwards;
+}
+
+.hero-description {
+    opacity: 0;
+    animation: fadeUp 0.8s 0.6s ease forwards;
+}
+
+.hero-actions {
+    opacity: 0;
+    animation: fadeUp 0.8s 0.75s ease forwards;
+}
+
+.hero-side {
+    opacity: 0;
+    animation: fadeIn 1s 0.9s ease forwards;
+}
+
+.card-top {
+    animation: float 5s ease-in-out infinite;
+}
+
+.card-bottom {
+    animation: float 6s 1s ease-in-out infinite;
+}
+
+.status-dot {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.scroll-line {
+    animation: lineMove 2.5s ease-in-out infinite;
+}
+
+
+/* ================================
+   REVEAL ON SCROLL
+================================ */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ================================
+   PAGE TRANSITION
+================================ */
+
+.page-enter {
+    animation: fadeIn 0.5s ease forwards;
+}

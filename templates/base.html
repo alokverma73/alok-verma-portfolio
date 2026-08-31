@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>{% block title %}Alok Verma — Portfolio{% endblock %}</title>
+
+    <meta
+        name="description"
+        content="Alok Verma — Computer Engineering graduate focused on AI, Cloud and Software Engineering."
+    >
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="{{ url_for('static', filename='images/favicon.svg') }}"
+    >
+    
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/animations.css') }}"
+    >
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/responsive.css') }}"
+    >
+
+    <link 
+        rel="stylesheet" 
+        href="{{ url_for('static', filename='css/pages.css') }}" 
+    >
+
+</head>
+
+
+<body>
+
+    {% include 'components/navbar.html' %}
+
+
+    <main>
+
+        {% block content %}{% endblock %}
+
+    </main>
+
+
+    {% include 'components/footer.html' %}
+
+
+    <script
+        src="{{ url_for('static', filename='js/main.js') }}"
+    ></script>
+
+    <script
+        src="{{ url_for('static', filename='js/interactions.js') }}"
+    ></script>
+
+    <script
+        src="{{ url_for('static', filename='js/animations.js') }}"
+    ></script>
+
+</body>
+
+</html>

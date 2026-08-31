@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+
+{% block title %}Alok Verma — Cloud · Software · Data/AI{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+
+    <div class="hero-top">
+        <span>01 / 05</span>
+        <span>PORTFOLIO · 2026</span>
+    </div>
+
+    <div class="hero-main">
+
+        <p class="eyebrow">COMPUTER ENGINEER · BUILDER</p>
+
+        <h1>
+            Hi, I'm<br>
+            <span>Alok Verma.</span>
+        </h1>
+
+        <p class="hero-description">
+            I build intelligent software, cloud systems,
+            and data-driven experiences that turn ideas
+            into useful technology.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="/projects" class="primary-button">
+                Explore Work
+                <span>↗</span>
+            </a>
+
+            <a href="/about" class="secondary-button">
+                About Me
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-bottom">
+
+        <span>SCROLL TO EXPLORE</span>
+
+        <span class="scroll-line"></span>
+
+        <span>AI · CLOUD · SOFTWARE</span>
+
+    </div>
+
+</section>
+
+
+<section class="home-intro">
+
+    <div class="section-label">
+        <span>02</span>
+        WHAT I DO
+    </div>
+
+    <div class="intro-grid">
+
+        <h2>
+            Technology should solve
+            <span>real problems.</span>
+        </h2>
+
+        <p>
+            My work sits at the intersection of software engineering,
+            artificial intelligence, cloud infrastructure and data.
+            I enjoy building systems that are practical, scalable
+            and thoughtfully engineered.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="home-projects">
+
+    <div class="section-label">
+        <span>03</span>
+        SELECTED WORK
+    </div>
+
+    <div class="home-project-list">
+
+        {% for project in projects[:3] %}
+
+        <a
+            href="/projects"
+            class="home-project-card"
+        >
+
+            <span class="project-index">
+                {{ "%02d"|format(loop.index) }}
+            </span>
+
+            <div>
+
+                <p class="eyebrow">
+                    {{ project.category }}
+                </p>
+
+                <h3>{{ project.title }}</h3>
+
+                <p>
+                    {{ project.description }}
+                </p>
+
+            </div>
+
+            <span class="project-arrow">↗</span>
+
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+
+<section class="home-cta">
+
+    <p class="eyebrow">HAVE AN IDEA?</p>
+
+    <h2>
+        Let's make<br>
+        <span>it happen.</span>
+    </h2>
+
+    <a href="/contact" class="primary-button">
+        Get in Touch
+        <span>↗</span>
+    </a>
+
+</section>
+
+{% endblock %}

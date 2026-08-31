@@ -1,0 +1,60 @@
+{
+  "languages": [
+    "Python",
+    "Java",
+    "C",
+    "SQL"
+  ],
+  "backend": [
+    "Data Structures & Algorithms",
+    "REST APIs",
+    "Flask",
+    "Backend Engineering",
+    "System Design"
+  ],
+  "frontend": [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "data": [
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Data Cleaning",
+    "Data Visualization",
+    "Power BI",
+    "Tableau"
+  ],
+  "databases": [
+    "PostgreSQL",
+    "MySQL"
+  ],
+  "cloud": [
+    "AWS EC2",
+    "AWS S3",
+    "AWS IAM",
+    "AWS VPC",
+    "AWS CloudWatch"
+  ],
+  "devops": [
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Infrastructure Monitoring",
+    "Linux"
+  ],
+  "ai": [
+    "Machine Learning",
+    "NLP",
+    "Computer Vision",
+    "Generative AI",
+    "Agentic AI"
+  ],
+  "tools": [
+    "Git",
+    "GitHub",
+    "VS Code"
+  ]
+}

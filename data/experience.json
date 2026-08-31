@@ -1,0 +1,39 @@
+[
+  {
+    "role": "AI Strategy & Business Intelligence Intern",
+    "company": "IBM",
+    "type": "Internship",
+    "description": "Worked on AI-driven business intelligence and agentic AI concepts, exploring automation workflows and practical applications of intelligent systems.",
+    "skills": [
+      "Agentic AI",
+      "Generative AI",
+      "Business Intelligence",
+      "Automation"
+    ]
+  },
+  {
+    "role": "Cyber Smart AI Prime Intern",
+    "company": "Cisco",
+    "type": "Internship",
+    "description": "Gained practical exposure to cybersecurity concepts, AI applications, and secure technology practices through a structured industry internship.",
+    "skills": [
+      "Cybersecurity",
+      "Artificial Intelligence",
+      "Networking",
+      "Security"
+    ]
+  },
+  {
+    "role": "AWS Cloud Graduate Training",
+    "company": "AWS",
+    "type": "Training",
+    "description": "Hands-on cloud training covering AWS infrastructure, compute, storage, identity, networking, monitoring, and scalable cloud architecture.",
+    "skills": [
+      "EC2",
+      "S3",
+      "IAM",
+      "VPC",
+      "CloudWatch"
+    ]
+  }
+]

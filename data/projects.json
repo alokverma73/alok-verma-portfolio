@@ -1,0 +1,44 @@
+[
+  {
+    "title": "AegisCloud",
+    "category": "AI · Cloud · Infrastructure",
+    "description": "AI-driven self-healing cloud infrastructure that detects anomalies, monitors system health, and automates recovery workflows.",
+    "technologies": [
+      "Python",
+      "AWS",
+      "Docker",
+      "CloudWatch",
+      "Machine Learning"
+    ],
+    "github": "https://github.com/alokverma73",
+    "featured": true
+  },
+  {
+    "title": "Emotion-Aware Multimodal Video Translation",
+    "category": "AI · NLP · Computer Vision",
+    "description": "A multilingual video translation system combining speech recognition, neural machine translation, emotion detection, lip synchronization, and emotion-preserving speech synthesis.",
+    "technologies": [
+      "Python",
+      "NLP",
+      "Computer Vision",
+      "ASR",
+      "Generative AI"
+    ],
+    "github": "https://github.com/alokverma73",
+    "featured": true
+  },
+  {
+    "title": "Classroom Management System",
+    "category": "Software · Full Stack",
+    "description": "A full-stack platform for managing courses, assignments, automated grading, student workflows, and performance dashboards through REST APIs.",
+    "technologies": [
+      "React",
+      "Flask",
+      "Python",
+      "REST API",
+      "PostgreSQL"
+    ],
+    "github": "https://github.com/alokverma73",
+    "featured": false
+  }
+]

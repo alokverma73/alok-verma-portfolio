@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Experience — Alok Verma{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+
+    <div class="page-number">03</div>
+
+    <div>
+        <p class="eyebrow">EXPERIENCE</p>
+
+        <h1>
+            Learning by<br>
+            <span>building.</span>
+        </h1>
+    </div>
+
+</section>
+
+
+<section class="experience-section">
+
+    <div class="section-label">
+        <span>01</span>
+        EXPERIENCE
+    </div>
+
+    <div class="experience-list">
+
+        {% for item in experience %}
+
+        <article class="experience-item">
+
+            <div class="experience-index">
+                {{ "%02d"|format(loop.index) }}
+            </div>
+
+            <div class="experience-main">
+
+                <div class="experience-heading">
+
+                    <div>
+                        <p class="eyebrow">{{ item.type }}</p>
+
+                        <h2>{{ item.role }}</h2>
+
+                        <h3>{{ item.company }}</h3>
+                    </div>
+
+                </div>
+
+                <p class="experience-description">
+                    {{ item.description }}
+                </p>
+
+                {% if item.skills %}
+
+                <div class="experience-skills">
+
+                    {% for skill in item.skills %}
+                        <span>{{ skill }}</span>
+                    {% endfor %}
+
+                </div>
+
+                {% endif %}
+
+            </div>
+
+        </article>
+
+        {% else %}
+
+        <p class="empty-state">
+            Experience details coming soon.
+        </p>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+{% endblock %}

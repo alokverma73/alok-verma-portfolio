@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Projects — Alok Verma{% endblock %}
+
+{% block content %}
+
+<section class="page-hero">
+
+    <div class="page-number">04</div>
+
+    <div>
+        <p class="eyebrow">SELECTED WORK</p>
+
+        <h1>
+            Things I've<br>
+            <span>built.</span>
+        </h1>
+    </div>
+
+</section>
+
+
+<section class="projects-section">
+
+    <div class="section-label">
+        <span>01</span>
+        PROJECTS
+    </div>
+
+    <div class="projects-list">
+
+        {% for project in projects %}
+
+        <article class="project-row">
+
+            <div class="project-number">
+                {{ "%02d"|format(loop.index) }}
+            </div>
+
+            <div class="project-info">
+
+                <p class="eyebrow">
+                    {{ project.category }}
+                </p>
+
+                <h2>{{ project.title }}</h2>
+
+                <p class="project-description">
+                    {{ project.description }}
+                </p>
+
+                {% if project.technologies %}
+                <div class="project-tech">
+
+                    {% for tech in project.technologies %}
+                        <span>{{ tech }}</span>
+                    {% endfor %}
+
+                </div>
+                {% endif %}
+
+            </div>
+
+            {% if project.github %}
+            <a
+                href="{{ project.github }}"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View {{ project.title }} on GitHub"
+            >
+                ↗
+            </a>
+            {% endif %}
+
+        </article>
+
+        {% else %}
+
+        <p class="empty-state">
+            Projects coming soon.
+        </p>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
+{% endblock %}
