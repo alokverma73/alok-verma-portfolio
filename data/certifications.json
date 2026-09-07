@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Cloud Practitioner",
+    "issuer": "IBM",
+    "type": "Certification",
+    "certificate_url": "https://drive.google.com/file/d/1hGN4sbkMq-16CufMpMGRVOB7GN10TKng/view?usp=drivesdk"
+  },
+  {
+    "title": "AI Agent",
+    "issuer": "IBM",
+    "type": "Certification",
+    "certificate_url": "https://drive.google.com/file/d/1oihzL4OjEzPWnFQ-S6Z-tXvLYm_xdOZn/view?usp=sharing"
+  },
+  {
+    "title": "Data Analyst with Python",
+    "issuer": "IBM",
+    "type": "Certification",
+    "certificate_url": "https://drive.google.com/file/d/1emfBCjumtXUIDuBbwfMiFK855kJEPdOA/view?usp=drivesdk"
+  },
+  {
+    "title": "AWS re/Start Graduate",
+    "issuer": "Amazon Web Services Training and Certification",
+    "type": "Certification",
+    "certificate_url": "https://www.credly.com/badges/1cdeacfa-33d3-40b4-8ab1-309f6d600671/whatsapp"
+  },
+  {
+    "title": "Python Training Program",
+    "issuer": "Talent Battle",
+    "type": "Training",
+    "certificate_url": "https://drive.google.com/file/d/1u0fT8tAsbYe-EqMC9VmR_ofWJueq80SF/view?usp=drivesdk"
+  },
+  {
+    "title": "AI Strategy & Business Intelligence Internship",
+    "issuer": "IBM SkillsBuild",
+    "type": "Internship",
+    "certificate_url": "https://drive.google.com/file/d/1TpkkZWT2gi57zoBHnEMpcTBVJUuIz3xE/view?usp=drivesdk"
+  },
+  {
+    "title": "AI Prime Internship",
+    "issuer": "Cyber Smart",
+    "type": "Internship",
+    "certificate_url": "https://drive.google.com/file/d/1mohoC66piGJOWore-hf0SMYvLKBqnFi9/view?usp=drivesdk"
+  }
+]

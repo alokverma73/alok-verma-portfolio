@@ -41,7 +41,8 @@ def home():
 def about():
     return render_template(
         "about.html",
-        skills=load_json("skills.json")
+        skills=load_json("skills.json"),
+        certifications=load_json("certifications.json")
     )
 
 
@@ -85,18 +86,13 @@ def contact():
     return render_template("contact.html")
 
 
-    # =========================================
+# =========================================
 # 404 ERROR PAGE
 # =========================================
 
 @app.errorhandler(404)
 def page_not_found(error):
     return render_template("404.html"), 404
-
-
-# =========================================
-# RESUME
-# ========================================= 
 
 
 # =========================================

@@ -124,4 +124,35 @@
 
 </section>
 
+<section class="about-section">
+
+    <div class="section-label">
+        <span>04</span>
+        CERTIFICATIONS
+    </div>
+
+    <div class="about-grid">
+
+        {% for certification in certifications %}
+
+        <div class="about-card">
+            <span>{{ "%02d"|format(loop.index) }}</span>
+
+            <h3>{{ certification.title }}</h3>
+
+            <p>{{ certification.issuer }}</p>
+
+            <a href="{{ certification.certificate_url }}"
+               target="_blank"
+               rel="noopener noreferrer">
+                View Certificate ↗
+            </a>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
 {% endblock %}
