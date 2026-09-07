@@ -3288,3 +3288,18 @@ body.menu-is-open {
 .mobile-resume b {
     color: var(--accent);
 }
+/* Certificate Link */
+.about-card a {
+    display: inline-flex;
+    margin-top: 18px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.about-card a:hover {
+    opacity: 0.7;
+    transform: translateX(4px);
+}

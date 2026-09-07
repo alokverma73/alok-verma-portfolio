@@ -905,10 +905,6 @@
 }
 
 
-/* =========================================
-   HOMEPAGE MOBILE
-========================================= */
-
 @media (max-width: 800px) {
 
     .hero {
@@ -1048,4 +1044,41 @@
 .experience-skills span:hover {
     border-color: var(--accent);
     color: var(--accent);
+}
+/* ================================
+   COMPACT PORTFOLIO POLISH
+   ================================ */
+
+body {
+    font-size: 0.95rem;
+}
+
+section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+}
+
+h2 {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+h3 {
+    font-size: 1.15rem;
+}
+
+p {
+    line-height: 1.65;
+}
+
+.container {
+    max-width: 1150px;
+}
+
+.hero {
+    padding-top: 90px;
+    padding-bottom: 70px;
 }
