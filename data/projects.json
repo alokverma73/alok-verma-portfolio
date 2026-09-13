@@ -10,27 +10,13 @@
       "CloudWatch",
       "Machine Learning"
     ],
-    "github": "https://github.com/alokverma73",
-    "featured": true
-  },
-  {
-    "title": "Emotion-Aware Multimodal Video Translation",
-    "category": "AI · NLP · Computer Vision",
-    "description": "A multilingual video translation system combining speech recognition, neural machine translation, emotion detection, lip synchronization, and emotion-preserving speech synthesis.",
-    "technologies": [
-      "Python",
-      "NLP",
-      "Computer Vision",
-      "ASR",
-      "Generative AI"
-    ],
-    "github": "https://github.com/alokverma73",
+    "github": "https://github.com/alokverma73/aegiscloud",
     "featured": true
   },
   {
     "title": "Classroom Management System",
     "category": "Software · Full Stack",
-    "description": "A full-stack platform for managing courses, assignments, automated grading, student workflows, and performance dashboards through REST APIs.",
+        "description": "A full-stack platform where teachers post announcements and allocate assignments, and students submit their work for teacher review.",
     "technologies": [
       "React",
       "Flask",
@@ -38,7 +24,7 @@
       "REST API",
       "PostgreSQL"
     ],
-    "github": "https://github.com/alokverma73",
+    "github": "https://github.com/alokverma73/classroom-management-system",
     "featured": false
   }
 ]
