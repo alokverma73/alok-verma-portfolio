@@ -35,6 +35,13 @@
 
     </div>
 
+    <div class="hero-visual reveal">
+        <img
+            src="{{ url_for('static', filename='images/profile/alok-verma.jpg') }}"
+            alt="Alok Verma"
+        >
+    </div>
+
     <div class="hero-bottom">
 
         <span>Scroll to explore</span>
@@ -46,7 +53,24 @@
 </section>
 
 
-<section class="home-intro">
+<section class="home-skills reveal">
+
+    <div class="section-label">
+        Technologies I work with
+    </div>
+
+    <div class="skill-pill-list">
+        {% for category, items in skills.items() %}
+            {% for item in items %}
+                <span class="skill-pill">{{ item }}</span>
+            {% endfor %}
+        {% endfor %}
+    </div>
+
+</section>
+
+
+<section class="home-intro reveal">
 
     <div class="section-label">
         What I do
@@ -83,7 +107,7 @@
 
         <a
             href="/projects"
-            class="home-project-card"
+            class="home-project-card reveal"
         >
 
             <span class="project-index">
@@ -114,7 +138,7 @@
 </section>
 
 
-<section class="home-cta">
+<section class="home-cta reveal">
 
     <p class="eyebrow">Have an idea?</p>
 
