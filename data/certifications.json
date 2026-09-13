@@ -1,44 +1,44 @@
 [
   {
-    "title": "Cloud Practitioner",
-    "issuer": "IBM",
+    "title": "AWS Certified Cloud Practitioner",
+    "issuer": "AWS",
     "type": "Certification",
-    "certificate_url": "https://drive.google.com/file/d/1hGN4sbkMq-16CufMpMGRVOB7GN10TKng/view?usp=drivesdk"
+    "certificate_url": "/static/images/certificates/aws-certified-cloud-practitioner.pdf"
   },
   {
-    "title": "AI Agent",
+    "title": "AI Agent Architect",
     "issuer": "IBM",
     "type": "Certification",
-    "certificate_url": "https://drive.google.com/file/d/1oihzL4OjEzPWnFQ-S6Z-tXvLYm_xdOZn/view?usp=sharing"
+    "certificate_url": "/static/images/certificates/ai-agent-architect-ibm.jpg"
   },
   {
     "title": "Data Analyst with Python",
     "issuer": "IBM",
     "type": "Certification",
-    "certificate_url": "https://drive.google.com/file/d/1emfBCjumtXUIDuBbwfMiFK855kJEPdOA/view?usp=drivesdk"
+    "certificate_url": "/static/images/certificates/data-analysis-with-python-ibm.pdf"
   },
   {
     "title": "AWS re/Start Graduate",
     "issuer": "Amazon Web Services Training and Certification",
     "type": "Certification",
-    "certificate_url": "https://www.credly.com/badges/1cdeacfa-33d3-40b4-8ab1-309f6d600671/whatsapp"
+    "certificate_url": "/static/images/certificates/aws-cloud-graduate.jpg"
   },
   {
     "title": "Python Training Program",
     "issuer": "Talent Battle",
     "type": "Training",
-    "certificate_url": "https://drive.google.com/file/d/1u0fT8tAsbYe-EqMC9VmR_ofWJueq80SF/view?usp=drivesdk"
+    "certificate_url": "/static/images/certificates/python-programming-talentbattle.pdf"
   },
   {
     "title": "AI Strategy & Business Intelligence Internship",
     "issuer": "IBM SkillsBuild",
     "type": "Internship",
-    "certificate_url": "https://drive.google.com/file/d/1TpkkZWT2gi57zoBHnEMpcTBVJUuIz3xE/view?usp=drivesdk"
+    "certificate_url": "/static/images/certificates/ai-strategy-bi-internship-ibm.pdf"
   },
   {
     "title": "AI Prime Internship",
     "issuer": "Cyber Smart",
     "type": "Internship",
-    "certificate_url": "https://drive.google.com/file/d/1mohoC66piGJOWore-hf0SMYvLKBqnFi9/view?usp=drivesdk"
+    "certificate_url": "/static/images/certificates/cyber-smart-ai-prime-cisco.png"
   }
 ]

@@ -9,7 +9,7 @@
     <div class="page-number">02</div>
 
     <div>
-        <p class="eyebrow">ABOUT ME</p>
+        <p class="eyebrow">About me</p>
 
         <h1>
             Building technology<br>
@@ -23,8 +23,7 @@
 <section class="about-section">
 
     <div class="section-label">
-        <span>01</span>
-        WHO I AM
+                Who I am
     </div>
 
     <div class="about-content">
@@ -61,15 +60,13 @@
 <section class="about-section">
 
     <div class="section-label">
-        <span>02</span>
-        WHAT I WORK WITH
+                What I work with
     </div>
 
     <div class="about-grid">
 
         <div class="about-card">
-            <span>01</span>
-            <h3>Artificial Intelligence</h3>
+                        <h3>Artificial Intelligence</h3>
             <p>
                 Machine Learning, NLP, Computer Vision,
                 Generative AI and Agentic AI.
@@ -77,8 +74,7 @@
         </div>
 
         <div class="about-card">
-            <span>02</span>
-            <h3>Cloud & DevOps</h3>
+                        <h3>Cloud & DevOps</h3>
             <p>
                 AWS infrastructure, Docker, Kubernetes,
                 CI/CD and cloud monitoring.
@@ -86,8 +82,7 @@
         </div>
 
         <div class="about-card">
-            <span>03</span>
-            <h3>Software Engineering</h3>
+                        <h3>Software Engineering</h3>
             <p>
                 Python, Java, REST APIs, Flask,
                 React, databases and system design.
@@ -102,8 +97,7 @@
 <section class="about-section education-section">
 
     <div class="section-label">
-        <span>03</span>
-        EDUCATION
+                Education
     </div>
 
     <div class="education-content">
@@ -127,8 +121,7 @@
 <section class="about-section">
 
     <div class="section-label">
-        <span>04</span>
-        CERTIFICATIONS
+                Certifications
     </div>
 
     <div class="about-grid">
@@ -136,8 +129,6 @@
         {% for certification in certifications %}
 
         <div class="about-card">
-            <span>{{ "%02d"|format(loop.index) }}</span>
-
             <h3>{{ certification.title }}</h3>
 
             <p>{{ certification.issuer }}</p>

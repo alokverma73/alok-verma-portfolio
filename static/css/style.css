@@ -3,22 +3,22 @@
 ================================ */
 
 :root {
-    --bg: #0a0a0a;
-    --bg-soft: #101010;
-    --surface: rgba(255, 255, 255, 0.035);
-    --surface-hover: rgba(255, 255, 255, 0.07);
+    --bg: #fdfdfb;
+    --bg-soft: #eef1ec;
+    --surface: rgba(20, 24, 22, 0.035);
+    --surface-hover: rgba(20, 24, 22, 0.06);
 
-    --text: #f5f5f5;
-    --text-soft: #a3a3a3;
-    --text-muted: #666666;
+    --text: #14181a;
+    --text-soft: #4b5a52;
+    --text-muted: #8a9691;
 
-    --line: rgba(255, 255, 255, 0.09);
+    --line: rgba(20, 24, 22, 0.12);
 
-    --accent: #c8ff00;
-    --accent-dark: #a8d800;
+    --accent: #2f6f5e;
+    --accent-dark: #1f4d40;
 
-    --font-primary: "DM Sans", sans-serif;
-    --font-display: "Space Grotesk", sans-serif;
+    --font-primary: "IBM Plex Sans", sans-serif;
+    --font-display: "Fraunces", serif;
 
     --container: 1280px;
 }
@@ -78,7 +78,7 @@ textarea {
 
     border-bottom: 1px solid var(--line);
 
-    background: rgba(10, 10, 10, 0.72);
+    background: rgba(253, 253, 251, 0.82);
     backdrop-filter: blur(18px);
 
     z-index: 1000;
@@ -143,7 +143,7 @@ textarea {
 }
 
 .resume-btn:hover {
-    color: #0a0a0a;
+    color: var(--bg);
     background: var(--accent);
     border-color: var(--accent);
 }
@@ -191,12 +191,12 @@ textarea {
 
     background-image:
         linear-gradient(
-            rgba(255, 255, 255, 0.04) 1px,
+            rgba(20, 24, 22, 0.05) 1px,
             transparent 1px
         ),
         linear-gradient(
             90deg,
-            rgba(255, 255, 255, 0.04) 1px,
+            rgba(20, 24, 22, 0.05) 1px,
             transparent 1px
         );
 
@@ -268,7 +268,7 @@ textarea {
     font-size: 0.78rem;
     letter-spacing: 0.02em;
 
-    background: rgba(255, 255, 255, 0.02);
+    background: rgba(20, 24, 22, 0.03);
 }
 
 .status-dot {
@@ -372,7 +372,7 @@ textarea {
 }
 
 .primary-btn {
-    color: #0a0a0a;
+    color: var(--bg);
 
     background: var(--accent);
 
@@ -396,7 +396,7 @@ textarea {
 
 .secondary-btn:hover {
     transform: translateY(-3px);
-    border-color: rgba(255, 255, 255, 0.3);
+    border-color: rgba(20, 24, 22, 0.25);
     background: var(--surface-hover);
 }
 
@@ -424,7 +424,7 @@ textarea {
     border: 1px solid var(--line);
     border-radius: 18px;
 
-    background: rgba(255, 255, 255, 0.025);
+    background: rgba(20, 24, 22, 0.03);
 
     backdrop-filter: blur(12px);
 
@@ -451,8 +451,7 @@ textarea {
 
     font-size: 0.7rem;
 
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .card-value {
@@ -503,8 +502,7 @@ textarea {
 
     font-size: 0.72rem;
 
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 
     z-index: 2;
 }
@@ -526,7 +524,7 @@ textarea {
 ================================ */
 
 ::selection {
-    color: #0a0a0a;
+    color: #fdfdfb;
     background: var(--accent);
 }
 /* ================================
@@ -573,8 +571,7 @@ textarea {
     font-size: 0.75rem;
     font-weight: 600;
 
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .section-tag span {
@@ -599,8 +596,7 @@ textarea {
     font-size: 0.72rem;
     font-weight: 600;
 
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .about-heading h1 {
@@ -675,7 +671,7 @@ textarea {
     font-size: 0.7rem;
     font-weight: 600;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .about-highlight h3 {
@@ -1147,7 +1143,7 @@ textarea {
     font-size: 0.68rem;
     font-weight: 600;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .timeline-content h3 {
@@ -1242,7 +1238,7 @@ textarea {
     font-size: 0.68rem;
     font-weight: 600;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .education-main h3 {
@@ -1275,8 +1271,7 @@ textarea {
     font-size: 0.68rem;
     font-weight: 600;
 
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .education-detail p {
@@ -1303,7 +1298,6 @@ textarea {
     color: var(--text-muted);
 
     font-size: 0.68rem;
-    text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
@@ -1389,8 +1383,7 @@ textarea {
     font-size: 0.7rem;
     font-weight: 600;
 
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 
@@ -2326,7 +2319,7 @@ textarea {
     font-size: 0.65rem;
     font-weight: 600;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .contact-value {
@@ -2453,7 +2446,7 @@ textarea {
     font-size: 0.65rem;
     font-weight: 600;
 
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
 }
 
 .form-group input,

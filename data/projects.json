@@ -5,12 +5,12 @@
     "description": "AI-driven self-healing cloud infrastructure that detects anomalies, monitors system health, and automates recovery workflows.",
     "technologies": [
       "Python",
-      "AWS",
-      "Docker",
+      "AWS Lambda",
       "CloudWatch",
-      "Machine Learning"
+      "Machine Learning",
+      "Docker"
     ],
-    "github": "https://github.com/alokverma73/aegiscloud",
+    "github": "https://github.com/alokverma73/AegisCloud-ML",
     "featured": true
   },
   {
