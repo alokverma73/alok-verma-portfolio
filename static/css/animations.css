@@ -132,15 +132,50 @@
 
 .reveal {
     opacity: 0;
-    transform: translateY(35px);
+    transform: translateY(35px) scale(0.98);
+    filter: blur(6px);
     transition:
-        opacity 0.8s ease,
-        transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+        transform 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+        filter 0.9s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .reveal.active {
     opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+}
+
+.skill-pill-list.reveal .skill-pill {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition-delay: var(--pill-delay, 0s);
+}
+
+.skill-pill-list.reveal.active .skill-pill {
+    opacity: 1;
     transform: translateY(0);
+}
+
+
+/* ================================
+   SCROLL PROGRESS BAR
+================================ */
+
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 3px;
+    width: 0%;
+
+    background: var(--accent);
+
+    z-index: 2000;
+
+    transition: width 0.1s ease-out;
 }
 
 

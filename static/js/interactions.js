@@ -159,13 +159,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 event.preventDefault();
 
-                if (formStatus) {
-
-                    formStatus.textContent =
-                        "Thanks! Your message is ready to send.";
-
-                }
-
                 const name =
                     document.getElementById("name")?.value || "";
 
@@ -189,7 +182,25 @@ document.addEventListener("DOMContentLoaded", () => {
                     `?subject=${encodeURIComponent(subject)}` +
                     `&body=${encodeURIComponent(body)}`;
 
-                window.location.href = mailto;
+                const whatsappText =
+                    `New portfolio enquiry\n` +
+                    `Name: ${name}\n` +
+                    `Email: ${email}\n` +
+                    `Subject: ${subject}\n\n` +
+                    `${message}`;
+
+                const whatsapp =
+                    `https://wa.me/916393235528` +
+                    `?text=${encodeURIComponent(whatsappText)}`;
+
+                if (formStatus) {
+
+                    formStatus.innerHTML =
+                        `<span>How would you like to send this?</span>` +
+                        `<a href="${mailto}" class="status-action">Open in Email</a>` +
+                        `<a href="${whatsapp}" target="_blank" rel="noopener noreferrer" class="status-action">Send via WhatsApp</a>`;
+
+                }
 
             }
         );
